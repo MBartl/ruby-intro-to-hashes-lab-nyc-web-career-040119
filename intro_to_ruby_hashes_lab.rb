@@ -47,10 +47,17 @@ def monopoly_with_fourth_tier
 	  railroads: {
 	    pieces: 4, 
 	    names: {
+<<<<<<< HEAD
 	      reading_railroad: {"mortgage_value" => "$100"}, 
 	      pennsylvania_railroad: {"mortgage_value" => "$200"},
 	      b_and_o_railroad: {"mortgage_value" => "$400"}, 
 	      shortline: {"mortgage_value" => "$800"}
+=======
+	      reading_railroad: {mortgage_value: $100}, 
+	      pennsylvania_railroad: {mortgage_value: $200},
+	      b_and_o_railroad: {mortgage_value: $400}, 
+	      shortline: {mortgage_value: $800}
+>>>>>>> f5f739e60e8beb1d0fda38ad3337977970df8b83
 	    }, 
 	    rent_in_dollars: {
 	      one_piece_owned: 25, 
